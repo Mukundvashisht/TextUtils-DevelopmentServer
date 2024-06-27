@@ -54,7 +54,7 @@ export default function TextForm({ Label, placeholder, mode }) {
                 </div>
                 <div className={`container py-3 bg-${mode} text-${mode === 'light' ? 'dark' : 'light'}`}>
                     <h3>Your Text Summery</h3>
-                    <p> {text.split(" ").filter((elment) => { return elment.length !== 0 }).length} word & {text.length} characters</p>
+                    <p> {text.split(/\s+/).filter((elment) => { return elment.length !== 0 }).length} word & {text.length} characters</p>
                     <p>{0.008 * text.split(" ").filter((elment) => { return elment.length !== 0 }).length} Minutes to read</p>
                     <h4>Preview</h4>
                     {/* <p>{text}</p> */}

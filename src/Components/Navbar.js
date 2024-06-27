@@ -24,7 +24,7 @@ export default function Navbar({ Title = "Enter Title Here", About = "About Us",
                                 <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/about">{About}</Link>
+                                <Link className="nav-link active" to="/about">{About}</Link>
                             </li>
                         </ul>
 

@@ -80,7 +80,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar Title="TextUtils" About="About Textutils" mode={mode} toggleGray={toggleGray} toggleDark={toggleDark} toggleRed={toggleRed} toggleBlue={toggleBlue} toggleGreen={toggleGreen} toggleYellow={toggleYellow} toggleSky={toggleSky} />
+        <Navbar Title="TextUtils" About="About" mode={mode} toggleGray={toggleGray} toggleDark={toggleDark} toggleRed={toggleRed} toggleBlue={toggleBlue} toggleGreen={toggleGreen} toggleYellow={toggleYellow} toggleSky={toggleSky} />
         <Alert alert={alert} />
 
         <Routes>
